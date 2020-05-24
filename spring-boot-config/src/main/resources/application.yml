@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: spring-boot-config
+  profiles:
+    active:
+    - uat
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health
